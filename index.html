@@ -5,6 +5,7 @@
     <head>
         <meta http-equiv="content-type" content="application/xhtml+xml; charset=utf-8" />
         <meta name="author" content="Uli Fahrenberg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" type="text/css" href="CSS/site.css" title="stylesheet" />
         <link rel="stylesheet" type="text/css" media="print" href="CSS/print.css" title="print stylesheet" />
 
@@ -31,6 +32,44 @@
                     document.getElementById(divid).style.display = 'none';
                 }
             }
+            
+            function toggleMobileMenu() {
+                var sidebar = document.getElementById('sidebar');
+                var body = document.body;
+                sidebar.classList.toggle('show');
+                body.classList.toggle('menu-open');
+            }
+            
+            function closeMobileMenu() {
+                var sidebar = document.getElementById('sidebar');
+                var body = document.body;
+                sidebar.classList.remove('show');
+                body.classList.remove('menu-open');
+            }
+            
+            document.addEventListener('DOMContentLoaded', function() {
+                // Close menu when clicking on links
+                var sidebarLinks = document.querySelectorAll('#sidebar a');
+                sidebarLinks.forEach(function(link) {
+                    link.addEventListener('click', function() {
+                        if (window.innerWidth <= 768) {
+                            closeMobileMenu();
+                        }
+                    });
+                });
+                
+                // Close menu when clicking outside
+                document.addEventListener('click', function(e) {
+                    var sidebar = document.getElementById('sidebar');
+                    var menuBtn = document.getElementById('mobile-menu-btn');
+                    
+                    if (sidebar && menuBtn && sidebar.classList.contains('show') && 
+                        !sidebar.contains(e.target) && 
+                        !menuBtn.contains(e.target)) {
+                        closeMobileMenu();
+                    }
+                });
+            });
         </script>
     </head>
 
@@ -47,8 +86,15 @@
         </span>
       </div>
 
-      <!-- ###### Side Boxes ###### -->
+      <!-- ###### Mobile Menu Button ###### -->
+      <button id="mobile-menu-btn" onclick="toggleMobileMenu()" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
       
+      <!-- ###### Side Boxes ###### -->
+      <div id="sidebar">
       <div class="sideBox LHS">
         <div>Contents</div>
         <a href="index.html">Home</a>
@@ -82,6 +128,7 @@
 	<a href="https://people.irisa.fr/Loic.Helouet/">Loïc Hélouët</a>
 	<a href="https://philippschlehubercaissier.github.io/">Philipp Schlehuber-Caissier</a>
 	<a href="https://www.mimuw.edu.pl/~ziemians/">Krzysztof Ziemiański</a>
+      </div>
       </div>
 
       <!-- ###### Body Text ###### -->
