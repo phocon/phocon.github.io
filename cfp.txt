@@ -11,10 +11,11 @@ Apologies for multiple copies of this email; please distribute as you see fit.
 
                      https://phocon.github.io/
 
-PHOCON is a workshop at the intersection of Petri nets and concurrency
-theory. It concerns itself with models for concurrency, partial-order
-semantics, their relation to Petri nets, and their applications.
-Topics of interest include, but are not limited to
+PHOCON is a workshop on concurrency theory, in particular Petri nets
+and non-interleaving concurrency.  It concerns itself with models for
+concurrency, partial-order semantics, their relation to Petri nets,
+and their applications.  Topics of interest include, but are not
+limited to
 - event structures,
 - configuration structures,
 - negotiations,
