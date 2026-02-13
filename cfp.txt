@@ -52,7 +52,17 @@ PROGRAM COMMITTEE
 * Amazigh Amrane, France
 * Hugo Bazille, France
 * Luca Bernardinello, Italy
-[ADD REST]
+* Thomas Chatain, France
+* Javier Esparza, Germany
+* Uli Fahrenberg, France (co-chair)
+* Carlo Ferigato, Italy
+* Loïc Hélouët, France (co-chair)
+* Maciej Koutny, UK
+* Philipp Schlehuber-Caissier, France (co-chair)
+* Stefan Schwoon, France
+* Jiří Srba, Denmark
+* Georg Struth, UK
+* Krzysztof Ziemiański, Poland (co-chair)
 
 For more information, see
 
