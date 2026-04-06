@@ -1,0 +1,69 @@
+Subject: Call for Contributions - PHOCON workshop @ Petri Nets 2026
+
+Apologies for multiple copies of this email; please distribute as you see fit.
+
+                       CALL FOR CONTRIBUTIONS
+
+                     International Workshop on
+              Petri Nets, Higher-Dimensional Automata,
+	          Partial Orders, and Concurrency
+		  Associated with PETRI NETS 2026
+
+                     https://phocon.github.io/
+
+PHOCON is a workshop on concurrency theory, in particular Petri nets
+and non-interleaving concurrency.  It concerns itself with models for
+concurrency, partial-order semantics, their relation to Petri nets,
+and their applications.  Topics of interest include, but are not
+limited to
+- event structures,
+- configuration structures,
+- negotiations,
+- higher-dimensional automata and variants,
+- partial-order semantics,
+- unfoldings,
+- partial-order reduction,
+- category theory,
+- history-preserving bisimulation and variants,
+- real-time concurrency.
+
+We are calling for presentations of original, unfinished, already
+published, or otherwise interesting work within the topics of the
+PHOCON workshop. The submission can be in the form of a poster, an
+abstract, a paper submitted to or published at another conference, a
+tool demo or any other format. Original contributions to PHOCON will
+be published in a volume of the CEUR Workshop Proceedings. Selected
+best papers will be invited for publication in a volume of the journal
+Transactions on Petri Nets and Other Models of Concurrency (ToPNoC).
+
+IMPORTANT DATES
+
+* Submission of contributions: 30 March 2026
+* Author notification: 30 April 2026
+* Workshop date: 22 June 2026 (preliminary)
+
+INVITED SPEAKERS
+
+* Rob van Glabbeek
+* (TBC)
+
+PROGRAM COMMITTEE
+
+* Amazigh Amrane, France
+* Hugo Bazille, France
+* Luca Bernardinello, Italy
+* Thomas Chatain, France
+* Javier Esparza, Germany
+* Uli Fahrenberg, France (co-chair)
+* Carlo Ferigato, Italy
+* Loïc Hélouët, France (co-chair)
+* Maciej Koutny, UK
+* Philipp Schlehuber-Caissier, France (co-chair)
+* Stefan Schwoon, France
+* Jiří Srba, Denmark
+* Georg Struth, UK
+* Krzysztof Ziemiański, Poland (co-chair)
+
+For more information, see
+
+    https://phocon.github.io/
