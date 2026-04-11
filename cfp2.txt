@@ -1,4 +1,4 @@
-Subject: Call for Contributions - PHOCON workshop @ Petri Nets 2026
+Subject: Deadline extension - PHOCON workshop @ Petri Nets 2026
 
 Apologies for multiple copies of this email; please distribute as you see fit.
 
@@ -7,9 +7,16 @@ Apologies for multiple copies of this email; please distribute as you see fit.
                      International Workshop on
               Petri Nets, Higher-Dimensional Automata,
 	          Partial Orders, and Concurrency
-		  Associated with PETRI NETS 2026
+	          Associated with PETRI NETS 2026
 
                      https://phocon.github.io/
+
+INVITED SPEAKERS
+
+* Rob van Glabbeek
+* Stefan Haar
+
+SCOPE
 
 PHOCON is a workshop on concurrency theory, in particular Petri nets
 and non-interleaving concurrency.  It concerns itself with models for
@@ -38,14 +45,9 @@ Transactions on Petri Nets and Other Models of Concurrency (ToPNoC).
 
 IMPORTANT DATES
 
-* Submission of contributions: 30 March 2026
-* Author notification: 30 April 2026
+* Submission of contributions: 12 April 2026
+* Author notification: 4 May 2026
 * Workshop date: 22 June 2026 (preliminary)
-
-INVITED SPEAKERS
-
-* Rob van Glabbeek
-* (TBC)
 
 PROGRAM COMMITTEE
 
