@@ -473,3 +473,17 @@ body.menu-open::before {
     font-size: 110%;
   }
 }
+
+/* https://stackoverflow.com/a/44599527 */
+dl {
+  display: grid;
+  grid-template-columns: max-content auto;
+}
+
+dt {
+  grid-column-start: 1;
+}
+
+dd {
+  grid-column-start: 2;
+}
